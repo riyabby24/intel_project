@@ -1,0 +1,65 @@
+p {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  font-size: x-large; /* Adjust font size */
+  line-height: 1.6; /* Set line height for readability */
+  color: #e0d6d6; /* Choose a suitable text color */
+  margin: 0 auto; /* Center the paragraph */
+  width: 80%; /* Set a width for the paragraph */
+  height: 100vh;
+  padding: 100px; /* Add padding for spacing inside the paragraph */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: blue;
+  margin: 10px;
+}
+
+.topbar {
+  color: rgb(236, 236, 236);
+  display: flex;
+  width: 100%;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchbarbut  {
+  margin: 20px;
+  justify-content: space-around;
+  width: 100%;
+  
+  color: aliceblue;
+  display: flex;
+   
+}
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 90px;
+    border: 2px solid #e2e2e2;
+   padding: 20px;
+
+}
+a:hover
+{
+    color: rgb(46, 228, 110);
+}
+h1{
+    padding-top: 10px;
+    color: #e0d6d6;
+    text-align: center;
+}
+
+.card-container {
+    border: 1px solid #ccc;
+    height: 100px;
+    margin: 1px;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+}
